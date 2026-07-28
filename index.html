@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shadow AI</title>
+    <title>AI Cooking</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to Shadow AI 🚀</h1>
-    <p>Project successfully started.</p>
+
+    <header class="navbar">
+        <h1>🍳 AI Cooking</h1>
+    </header>
+
+    <main class="container">
+
+        <div class="chat-box">
+            <h2>Welcome to AI Cooking 👨‍🍳</h2>
+
+            <p>
+                Your Smart AI Cooking Assistant
+            </p>
+
+            <div id="messages"></div>
+
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Ask any cooking question..."
+                >
+
+                <button id="sendBtn">
+                    Send
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
