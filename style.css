@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:#0d1117;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+h1{
+  color:#00e5ff;
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+p{
+  color:#c9d1d9;
+  font-size:18px;
+}
